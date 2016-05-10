@@ -1,0 +1,23 @@
+@charset "UTF-8";
+html{ 
+	font-size: 12pt;
+	font-family: Helvetica, Arial, sans-serif;
+    line-height:2;
+    -webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+            box-sizing:border-box;
+	}
+*, *:before, *:after{
+    -webkit-box-sizing:inherit;
+       -moz-box-sizing:inherit;
+            box-sizing:inherit;
+	-webkit-text-size-adjust:none;
+	}
+
+
+@media print{
+	#one, #two{color:black; background-color:white}
+	#one{max-width:70em}
+	#two{max-width:60em}
+	.submit, .arrow1, .arrow2{display:none}
+	}
